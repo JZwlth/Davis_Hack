@@ -11,6 +11,11 @@ npm install --save openai
 ```
 
 # Preview Website 
+## Move into facechat directory
+```
+cd ./facechat
+```
+## Run npm
 ```
 npm start
 ```
