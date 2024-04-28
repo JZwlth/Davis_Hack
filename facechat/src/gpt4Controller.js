@@ -31,7 +31,7 @@ class Gpt4Controller {
             apiKey: ""
         });
 
-        this.#coachPrompt = "You are a communication coach. Give speaking advice on the following set of images and text. The images were taken as the speaker was talking and the transcribed text is provided as well.";
+        this.#coachPrompt = "You are a communication coach who builds bridges between normal people and communication barriers people. Your advice will include the original speech.Give speaking advice and word choics on the following set of images and text. You will have only 3 part, Origin speech, Revised Speech and Communication Tips. each part only 2 sentence. The images were the reactions of listeners when the speaker was talking, and the transcribed text was provided as well.";
 
     }
 
@@ -114,6 +114,6 @@ class Gpt4Controller {
 };
 
 let controller = Gpt4Controller.shared;
-let audioFilePath = './src/assets/SelfIntroJon.m4a';
-let imageFilePaths = ['./src/assets/JonSelfie.jpg'];
+let audioFilePath = './src/assets/n.m4a';
+let imageFilePaths = ['./src/assets/n.JPG'];
 controller.getResponse(audioFilePath, imageFilePaths);
