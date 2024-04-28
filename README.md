@@ -9,6 +9,14 @@ have to install Tools for Native Modules.
 ```
 npm install --save openai
 ```
+3. react-audio-voice-recorder
+```
+npm install react-audio-voice-recorder
+```
+4. react-webcam
+```
+npm install react-webcam
+```
 
 # Preview Website 
 ## Move into facechat directory
